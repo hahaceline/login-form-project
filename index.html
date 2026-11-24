@@ -5,21 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Form</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <h2>Login Form</h2>
+    <form class="login">
+        <h2>Login Form</h2>
 
-    <form>
-        <label>Username:</label>
-        <input type="text" placeholder="Enter username">
+        <label for="username">Username:</label>
+        <input id="username" type="text" placeholder="Enter username">
 
-        <br><br>
-
-        <label>Password:</label>
-        <input type="password" placeholder="Enter password">
-
-        <br><br>
+        <label for="password">Password:</label>
+        <input id="password" type="password" placeholder="Enter password">
 
         <button type="submit">Login</button>
     </form>
